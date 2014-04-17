@@ -62,6 +62,17 @@ class Api
 
 
     /**
+     * @return int
+     */
+    public function getClientId()
+    {
+        return $this->clientId;
+    }
+
+
+
+
+    /**
      * @param null|string $input
      * @return string
      */
