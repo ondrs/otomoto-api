@@ -45,7 +45,7 @@ class Api
 
     /**
      * @param int $clientId
-     * @return \SoapClient
+     * @return $this
      */
     public function createClient($clientId)
     {
@@ -57,7 +57,7 @@ class Api
             'trace' => 1,
         ));
 
-        return $this->client;
+        return $this;
     }
 
 
