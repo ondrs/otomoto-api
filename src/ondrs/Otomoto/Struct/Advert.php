@@ -25,7 +25,8 @@ class Advert extends BaseStruct
     public $DateOfMade;
     public $DontUsePhotos;
     public $Doors;
-    public $Equipment = [];
+
+
     public $Euro;
     public $ExtendedDescription;
     public $FirstOwner;
@@ -39,7 +40,6 @@ class Advert extends BaseStruct
     public $MaxLoad;
     public $NotDamaged;
     public $OriginalId;
-    public $Photos = [];
     public $Power;
     public $Price;
     public $PriceCurrency;
@@ -57,4 +57,10 @@ class Advert extends BaseStruct
     public $VAT;
     public $VIN;
     public $WheelDrive;
+
+    /** @var array of AdvertPhoto */
+    public $Photos = [];
+
+    /** @var array of int */
+    public $Equipment = [];
 } 

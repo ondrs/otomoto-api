@@ -70,8 +70,6 @@ class Api
     }
 
 
-
-
     /**
      * @param null|string $input
      * @return string
@@ -121,7 +119,7 @@ class Api
 
 
     /**
-     * @param array $adverts of type Advert
+     * @param array $adverts of Advert
      * @return mixed
      * @throws OtomotoException
      */
@@ -149,7 +147,7 @@ class Api
 
 
     /**
-     * @param array $adverts of type AdvertStatus
+     * @param array $adverts of AdvertStatus
      * @return mixed
      * @throws OtomotoException
      */
