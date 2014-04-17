@@ -9,8 +9,6 @@
 namespace ondrs\Otomoto\Struct;
 
 
-use ondrs\Otomoto\BaseStruct;
-
 class AdvertStatus extends BaseStruct
 {
     const

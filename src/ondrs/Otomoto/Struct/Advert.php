@@ -9,8 +9,6 @@
 namespace ondrs\Otomoto\Struct;
 
 
-use ondrs\Otomoto\BaseStruct;
-
 class Advert extends BaseStruct
 {
     public $Advertisement;

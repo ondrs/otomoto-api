@@ -6,7 +6,7 @@
  * Time: 13:50
  */
 
-namespace ondrs\Otomoto;
+namespace ondrs\Otomoto\Struct;
 
 
 class BaseStruct
