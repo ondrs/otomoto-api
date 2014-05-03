@@ -134,8 +134,8 @@ class Api
                 ),
             ));
 
-            if(!$result->AdvertQuickListResult->IsOk) {
-                throw new OtomotoException($result->EnumListResult->Message);
+            if(!$result->AdvertSaveResult->IsOk) {
+                throw new OtomotoException($result->AdvertSaveResult->Message);
             }
 
             return $result;
@@ -162,8 +162,8 @@ class Api
                 ),
             ));
 
-            if(!$result->AdvertQuickListResult->IsOk) {
-                throw new OtomotoException($result->EnumListResult->Message);
+            if(!$result->AdvertChangeStatusResult->IsOk) {
+                throw new OtomotoException($result->AdvertChangeStatusResult->Message);
             }
 
             return $result;
