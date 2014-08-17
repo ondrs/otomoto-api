@@ -19,7 +19,8 @@
     "phpseclib/phpseclib": "0.3.6"
   },
   "require-dev": {
-    "nette/tester": "@dev"
+    "nette/tester": "@dev",
+    "jakub-onderka/php-parallel-lint": "0.*"
   },
   "autoload": {
     "classmap": ["src/"]

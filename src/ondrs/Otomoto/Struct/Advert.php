@@ -48,19 +48,33 @@ class Advert extends BaseStruct
     public $ProducerModelName;
     public $ProducerName;
     public $Region;
+    public $RimBoltCircleDiameter;
+    public $RimBoltCount;
+    public $RimCenterBore;
+    public $RimDiameter;
+    public $RimET;
+    public $RimWidth;
     public $Seats;
     public $ServiceBook;
     public $Speeds;
     public $StkValidTo;
     public $Tacho;
     public $TachoUnit;
+    public $TyreAspectRation;
+    public $TyreDOT;
+    public $TyreLI;
+    public $TyreRFT;
+    public $TyreSI;
+    public $TyreSeason;
+    public $TyreSize;
     public $VAT;
     public $VIN;
+    public $Weight;
     public $WheelDrive;
 
-    /** @var array of AdvertPhoto */
+    /** @var AdvertPhoto[]  */
     public $Photos = [];
 
-    /** @var array of int */
+    /** @var int[] */
     public $Equipment = [];
 } 
