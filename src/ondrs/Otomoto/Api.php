@@ -54,6 +54,7 @@ class Api
         $this->client = new \SoapClient('http://dataservice.otomoto.cz/import.svc?wsdl', array(
             'soap_version' => SOAP_1_1,
             'connection_timeout' => 15,
+            'exceptions' => TRUE,
             'trace' => 1,
         ));
 
